@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .challenge {
+            padding: 25px;
+        }
+        .blankTop{
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>LikeMuShoes</h1>
+            <span>Gently used floor model sneakers and discontinued styles at our lowest prices of the year. Get 'em before they're gone!</span>
+        </header>
+        <section>
+            <form method="post">
+                <label for="FirstName">First Name</label>
+                <Input type="text" name="FirstName" id="FirstName" minlength="3" placeholder="First Name" required>
+                <label for="LastName">Last Name</label>
+                <Input type="text" name="LastName" id="LastName" minlength="3" placeholder="Last Name" required>
+            
+                <br>
+                <div>What's your favorite shoes ?</div>
+                <div>
+                    <Input type="radio" name="shoes" id="Converse" value="Converse" required>
+                    <label for="Converse">Converse</label>
+
+                    <Input type="radio" name="shoes" id="Adidas" value="Adidas" required>
+                    <label for="Adidas">Adidas</label>
+
+                    <Input type="radio" name="shoes" id="NewBalance" value="NewBalance" required>
+                    <label for="NewBalance">NewBalance</label>
+                    <br>
+                    <button>Submit</button>
+                </div>
+            </form>
+        </section>
+        <article>
+            <h3>Converse</h3>
+            <div class="challenge">
+                <img alt="Photo by Maksim Larin" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMREBUQEhAWFRUVFRAWFRETExMSExUSFRUWFhUVFhUYHSogGBomGxUVITEhJSorLi4yFx84ODMsNygtMCsBCgoKDg0NFQ8NFSsdFRktKy0tKy0rLS0tLS03KystKystLSstKystKystNy0rKy0tKy0tLSsrKy0rKy0rKys3K//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABgECAwUHBAj/xABMEAABAwIDAwcFCgsHBQAAAAABAAIDBBEFEiEGMUEHEyJRYXGBMpGhsfAUFiNCcoKSwcLSFTNDUlNUYpSyw9EkZHODotPhCGOTs/H/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDtKIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiDz4jXR08T55XZY42lz3Hg0evuXKNkOVN1Riro5yGU09mQsdb4N40ju79vUHtIsrOX/aAtEOHtNg4c/Lbi0OLYm92Zrz80LizXoPstFAOSPbP3fT+55nXqYAASd8sW5sna4bndtj8ZT9AREQEREBERAREQEREBERAREQEREBERAREQFgruc5qTmiBJkfzZcLt5zKcmYcReyzoEHH8M5bQ0ZKujfnBs50Bbb6LyLHsuVI6PlewyS15ZIyeD4X6d7mgj0rhO2tHzGI1UXVPPb5JeXN/wBJatNdB9Rt5RMMIv7ui7i9oPmJXixDlSw2IXFQHngGBz/4AV80pdQSjb/HWYjWvqmuIaWxsa3LuawdpvvLjuUabEPY/wBFa1yueeP/AB7f/VRssBxaWiqI6mE5Xxm4B8lzfjMd1tIuCvqPZnHYq+lZVQnovHSafKZINHMd2g+cWO4rlWzfJ5h7MstRM+UtAL2Pe1kBdYEkgAOy9QLtePUpJge3eFsqmUVI3Lne1gdDDlhc/cBdo177W03oOioqMdcXCqgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiIPnHlww/msWc+2k0cUgPWQ3m3f+v0qAELs3/UXTD+xS8b1LD3WjcPTfzrjT0FqXUp2c2FqKtglJEMRF2ySAlzh1sYNSO0kDvW+PJnEei2vOY3teFhBsGk6CS/x2/SCDm6yM6lvdotkaiiHOOAki0+GjuWi+7ODqzx07VHwUEhO19UaY0pkGQjKX5Bzpb+bn6u21+2+qwbKYwKOshqcodzTwSzS5aQWuA/ayuNu2y1cQaXNzeTmbmO6zbjNr2C/oXccKxCKiilqJaCNkUGtPPHzLucYW6BgJzMeTv01vvKCU7H7XCrnqKd0bo8js1OXsfGZac6ZrOG/Nc9zmqXLkOyXKdNX4jHTmliZHIXhpLnOlYAxziS46Em1rADxXQcP2lhfWS0DnBs0WQtaSPhGOY1929ovqN/Hcg3qIiAiIgIiICIiAiIgIiICIiAiIgIiICIqOcALk2A1JO4Abyg4t/1DVoMlHBfVrZ5XDqDixjP4X+Zc/2BwVtZWhsgvHG0yvbwdYhrWHsLnN8AVZt7tB7vxCapBuwuyRdkMfRZ59XfOUk5GHtE9Q0nXm4XW/Za8gnwLmehB0BtL7puCfgwRo0gEdG2XQXa7yr2ddoda19R5qerglxCahtZ8cTX5mucHEy/jgbGx6Jg9Ky4/Tx1kRYJpYZA7Kx8UjmuBPFwYbOZ39RsQuFwue6USGaQNfKI3VfT4kAkvvqctnZSb2siO9uoXsdzRZzkTm5bG2XKSc5eD5ROYaDQ3ceAA4ntpggoqx8LfxZDZIr6kRvvZp7Q4Ob81dswWCGkj5iJsjiCMz3NkfJJwMr3Fu7yrAaaaLnPLOW+6oAPKEMhPXlMrsgPmeiuftKvfK7KGlxLRuaSS0dw3BY1e3qQTHZzYTEZHRTRBsJDmvbK6TK6MjUOIAOunki54EDVdExnBcOo5nV+J1j31D3CQMY50XTaABzUUZ5ywsACXW0UKpNuY4I5JonVAqJWMaYS5jqdr2tDBI24uNGgaHw6oJNO+RxfK9z3vOr3uLnuPDU3JKD6kw3aiB1LT1L3GKKoLWRmY65nZsmZ1yBmDeJ4hSFckw7DJMYw2kjmjNHSwauNx8NHHHkjMWbyWWzEuffszb1Jtk9rqOWc4dRvfIIYi4Sue57HNYWNyte8lzvKGu7qQTVFrcDx2CsYXwSB2U2ezc+N3Fr27wfYLZICIiAiIgIiICIiAiIgIiICIiAuf8tW0JpcOMLDaSqJiBG8RWvK76Nm/PXQF898u2Jc7ibYAejTwsFup8vTd/pyeZBziy3exWNCirY53X5s5mS21PNP3kDrBDXfNWkRB9H1tSXAlzg6nkid0o7gljmkueJATwADbWvznW1VqqelZB7kNO0xCMO5gMbkEd7XuTl0JuTe433XENmttKqhGSN4fFe/MSguYCd5YQQ5h7jbXcVJZOV2a120UIfa2cySO06raEjsug6MysdC10szhDBE0tIf0iAzoh2fe4nhexO6xvmXCdrMZNbVyVFiGmzY2ne2Jgs0Ht3k9riqbQ7T1Vc4Golu1urYmjJEztawce03PatNdBcitVUGVrr71MeTmrET5shibUObFzDpzaMgOvJHm+KXC3o6lClcHcD7BB0rlT2rlm5qkbUMIDM1THA8ujMulmGSwLwLHTQbrrRcn+J1NLWCelpTUOy826MMe4ZXlp8pujDdg6R00KizbcFOtiNoBBA2IVbKZ7Jnvc6SJ0jJY3gAjo2IcLWGo3IJbQ7MxYS78I1uIPp5XukcIKcg6OJcYj0XGYC9jZoG7sKncG2lL7mhq3vLYJnOY2ZzbAPBcMrwPJvldr2a2Xz9trjYrK6SZr3uj6LYy/Q5GgDRu5gJubdvWpPsHsxUVkbGz1JjoXuL+YzkueWOcLxsIIju64zbzY79EHeqapZI0Pje17SLhzSHAjsIWVcZxDbWkwqofS0FHcMNpHumma0yDyg1rr37SbXPWp1svtY2ukPMSskjEYc5hY5k8LyQAx3B7T0rOA+LxQSxFrML2gpqh74opmmSNzmPiJyva5pLT0TqRcbxotmgIiICIiAiIgIiICIiAvlflBqedxWtf/eJGeEdo/sL6oXyhtRSSiqne+JzOcnqJA14LTZ8jnDyrX3oNIVashiPUVZkP5p8xQUKoQq5D1HzKojdwafMUFllRXuYRvaR3gqy6DPRUkkzxHFG6R53MYMx7+7tVtRC6N5jkYWPabOY4WcD1EFbDZ/E2QGVkjXmOeIxPdEQ2VrczXXYTofJsQd4KbR4oypla5jXBscUULTI4Ole2MEZ5CNMxvw6gg1d166nDpomMkkhexkl8j3NIDu7/leQe19R4jqUoxzaOKeOfIybnKl8L5BK9roojGb2htqfzdbWCCM3VzXKy6rnQZswspFg21JgZGx9PHOIXOdCXvkjdGXG5bdh6bCdcrhZRgPCXvuHmQbHEq9880lRKbvkcXuI0F3a6AbhwC6xyYYlHT08fuaDnHy6VUvORtMT2OdbnA9wIjDXXGUHjx38cbE/gx30Xf0VxpnHUsy/Lys8wdb2CDZ41K01UxbJzjeemLZfzhncQ/x3rsHIlVSS0s/OSveWTgNzvc4tZzbCAMx0F82g7Vxeiw6SQ2jbncPisvK7zRhx610zk5osRoXvcKNz2SsaC2RwgDXtN2u+EOfi4WycewIOx3PX6VbJUZQXFwAGpJsAB2k7lF8uJzeVLT0w6omPqZLfKflaD4FGbHwvIdVPlqnDX+0yZowesQttGPMg92G7XxVFV7ngBmY0O5ypj1hjeLZWF50cTf4t7eqSrUxNZG0NY0BoGjWgNaB2AaW7l7aKXMD2H0IPSiIgIiICIiAVpZG3FiAR1HUeZbh+49xUdirGdFrpW5nNuASGuIuRcNNig89RgdM/y6SB3a6GInzkLwv2OoDvoKf/AMUY9S3pVpCCPnYnD/1GHwFvUVYdhsP/AFKPwLh6nKQqiCNu2Dw/9UA7nyj7Sxu5P8PP5B3hLN95Si6rmRUPfyc4f+jlHdLKfXdYncmdAf04+eT62qa51cHoiBHkvw/86bxLfuKg5L8P/SSfTj+6p/nQuPUggbeS+g/Ok+mz7qyN5MaEcZvCW3qCm5d2Kl0ESi5NaDfllPfUTfUQvVFye0A/Ivd8qeod63qTNcfb23K7Mev1+3citDDsLh7d1DCflszm/wA8lbSkwami/F08LPkQxt08BqvV4+n217VQoMrcrRYDTqGg8yGUcAPbqWL29uop4+3ggvM56/MrS729tyofbgrD7cUFS5e3DL5j1WXgzr24bfP4G/oQbNEREEREBERAUXrsHil6M0UcluctnY11g517C+5ShaypwoucXMney+9pDHsv3OFx4EIIs/Y6j4U+T/Dklj/hcsPvPgG59QPk1tUPU9SZ2FVPCohPfTvB84l+pYzhtXwfTn5srfrKKjh2Sj/S1X79VffT3oQ8XTnvras/zFIDh1Z/d/pTfdT8HVnXTDxmP1BBH/efT/8Ad/eqk/zFX3p0/VJ+81P31vThVafytMP8qZ32wn4FrP1qnHdSyn+eg0fvTpeMRPfNOfW9WnZCj404Pe+U/aW//AdVxq4fClf/AL6HAKn9cj/dXf7yIj3vQouFOB3PlHqcrTsdT/FM7O2OrqW/bW/dgFZwrIPGkk+qdUGDVw/LUzv8qaP7bkGk97Tx+LxCrZ3ytmHjzjTdV/Bde3yMRB/xaWN1/FjmrdihrgfxVM4dYqJWnzGE+tZ+YqBvp7/IljP8RaisGGCQRATva+TpZnRtLGHU2s0k20txXqzDr9awfD8aObwfSn+crHOm/Upz86l+uZSj05gq514s1Qd1BN859KPVKVgmFd8SgHe+pY30AH1qjZF6t5xaSSjxZ26GnjHys5HiXW9CxO2cxN/l1Fh1NeGfwAKDeyzBou5waOtxAHnKrB0/JN+3cPAnQ+C01JsTMDmc9l+Lrku+kdVIaHAnM3yX86o9EGGne5wHY3X0n+i2MUQaLAf1VIY8o3rIiCIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIg//2Q==">
+                <div>Photo by Maksim Larin</div>
+            </div>
+            <p>Suede fabric pointed toe stylish cut front low heel sharp on-trend toe point raised heel drop sides unique silboutiqe</p>
+            <p>$30 USD</p>
+            <p>Free Shipping!</p>
+            <div>
+                <form method="get">
+                <label for="Size">Size : </label>
+                <!--option[value="size$"][name="$"]{$}*20-->
+                <select name="Size" id="Size">
+                    <option value="size1" name="1">1</option>
+                    <option value="size2" name="2">2</option>
+                    <option value="size3" name="3">3</option>
+                    <option value="size4" name="4">4</option>
+                    <option value="size5" name="5">5</option>
+                    <option value="size6" name="6">6</option>
+                    <option value="size7" name="7">7</option>
+                    <option value="size8" name="8">8</option>
+                    <option value="size9" name="9">9</option>
+                    <option value="size10" name="10">10</option>
+                    <option value="size11" name="11">11</option>
+                    <option value="size12" name="12">12</option>
+                    <option value="size13" name="13">13</option>
+                    <option value="size14" name="14">14</option>
+                    <option value="size15" name="15">15</option>
+                    <option value="size16" name="16">16</option>
+                    <option value="size17" name="17">17</option>
+                    <option value="size18" name="18">18</option>
+                    <option value="size19" name="19">19</option>
+                    <option value="size20" name="20">20</option>
+                </select>
+                <label for="Size">Color : </label>
+                <select name="Color" id="Color">
+                    <option value="Color1" name="Color1">Red</option>
+                    <option value="Color2" name="Color2">Green</option>
+                    <option value="Color3" name="Color3" selected>Yellow</option>
+                    <option value="Color4" name="Color4">Black</option>
+                    <option value="Color5" name="Color5">White</option>
+                </select>
+                <label for="Quantity">Quantity : </label>
+                <select name="Quantity" id="Quantity">
+                    <option value="Quantity1" name="Quantity1">1</option>
+                    <option value="Quantity2" name="Quantity2">2</option>
+                    <option value="Quantity3" name="Quantity3">3</option>
+                    <option value="Quantity4" name="Quantity4">4</option>
+                    <option value="Quantity5" name="Quantity5">5</option>
+                </select>
+                <button>Add to Cart</button>
+            </div>
+        </form>
+        </article>
+
+        <article>
+            <h3>Converse</h3>
+            <div class="challenge">
+                <img alt="Photo by Felipe Laqiam" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYeUI2SNc0-ulaBcWu9Es37pPaLUodY6YOEA&s">
+                <div>Photo by Felipe Laqiam</div>
+            </div>
+            <p>Suede fabric pointed toe stylish cut front low heel sharp on-trend toe point raised heel drop sides unique silboutiqe</p>
+            <p>$45 USD</p>
+            <p>Just One Left!</p>
+            <div>
+                <form>
+                <label for="Size">Size : </label>
+                <!--select[name="Size"][id="Size"]>option[value="size$"][name="$"]{$}*20-->
+                <select name="Size" id="Size">
+                    <option value="size1" name="1" disabled>1</option>
+                    <option value="size2" name="2" selected>2</option>
+                    <option value="size3" name="3" disabled>3</option>
+                    <option value="size4" name="4" disabled>4</option>
+                    <option value="size5" name="5" disabled>5</option>
+                    <option value="size6" name="6" disabled>6</option>
+                    <option value="size7" name="7" disabled>7</option>
+                    <option value="size8" name="8" disabled>8</option>
+                    <option value="size9" name="9" disabled>9</option>
+                    <option value="size10" name="10" disabled>10</option>
+                    <option value="size11" name="11" disabled>11</option>
+                    <option value="size12" name="12" disabled>12</option>
+                </select>
+                <label for="Size">Color : </label>
+                <select name="Color" id="Color">
+                    <option value="Color1" name="Color1" selected>Red</option>
+                    <option value="Color2" name="Color2" disabled>Green</option>
+                    <option value="Color3" name="Color3" disabled>Yellow</option>
+                    <option value="Color4" name="Color4" disabled>Black</option>
+                    <option value="Color5" name="Color5" disabled>Whıte</option>
+                </select>
+                <label for="Quantity">Quantity : </label>
+                <select name="Quantity" id="Quantity">
+                    <option value="Quantity1" name="Quantity1" selected>1</option>
+                    <option value="Quantity2" name="Quantity2" disabled>2</option>
+                    <option value="Quantity3" name="Quantity3" disabled>3</option>
+                    <option value="Quantity4" name="Quantity4" disabled>4</option>
+                    <option value="Quantity5" name="Quantity5" disabled>5</option>
+                </select>
+                <button>Add to Cart</button>
+            </div>
+        </form>
+        </article>
+        <footer>
+            <nav>
+                <div class="blankTop">
+                    <span><a href="#">Home</a></span>
+                    <span><a href="#">About</a></span>
+                    <span><a href="#">Contact</a></span>
+                </div>
+            </nav>
+        </footer>
+    </main>
+</body>
+</html>
